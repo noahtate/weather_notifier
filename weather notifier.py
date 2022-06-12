@@ -10,7 +10,7 @@ def getdata(url):
     r = requests.get(url)
     return r.text
 
-weather_url = "https://weather.com/weather/today/l/789c320de438c76f84d9eb242fcf658a23f3d85c4d911d9c3e62415426761f9a"
+weather_url = "https://weather.com/"
 
 def getweather():
     #beautiful soup variables
