@@ -49,7 +49,7 @@ def get_weather():
     return
 
 get_weather()
-schedule.every(30).minutes.do(get_weather)
+schedule.every(30).minutes.do(get_weather) #seems to be a bit broken, returns the same temp every time.
 
 if __name__ == "__main__":
     while True:
